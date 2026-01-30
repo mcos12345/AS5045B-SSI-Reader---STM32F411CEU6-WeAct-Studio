@@ -1,53 +1,64 @@
-# Prerequisites
-*.d
+# Build directories
+build/
+Debug/
+Release/
+.pio/
+.pioenvs/
+.piolibdeps/
 
-# Object files
+# IDE files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+.settings/
+.cproject
+.project
+
+# Compiled files
 *.o
-*.ko
 *.obj
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.bin
 *.hex
-
-# Debug files
-*.dSYM/
+*.map
+*.lst
 *.su
-*.idb
-*.pdb
+*.d
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
+# STM32CubeIDE
+*.launch
+.metadata/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Documentation generated
+Docs/html/
+Docs/latex/
+
+# Backup files
+*.bak
+*.backup
+*~
 Mkfile.old
 dkms.conf
 
