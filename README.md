@@ -1,0 +1,2 @@
+# AS5045B-SSI-Reader---STM32F411CEU6-WeAct-Studio
+AS5045B SSI Reader - STM32F411CEU6 (WeAct Studio)
